@@ -7,22 +7,22 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2E663431-F054-4996-92DF-F474533A94C1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>PicJoin</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1A05B10E39C38EC325A335A534BF258650965047</key>
-		<string>bitbucket.org:ndohai/comicstrip.git</string>
+		<key>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</key>
+		<string>https://github.com/trduong/ComicStrip.git</string>
 		<key>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</key>
 		<string>https://scs01.wisekey.ch:8443/svn/wisefans-ios/SwissFederationFootball/trunk/src/SwissFederationFootball/WiseFan/Classes/Libs/B64Transcoder</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PicJoin.xcodeproj</string>
+	<string>PicJoin.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1A05B10E39C38EC325A335A534BF258650965047</key>
+		<key>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</key>
 		<string>../..</string>
 		<key>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</key>
-		<string>../../PicJoin/ExternalLib/B64Transcoder/</string>
+		<string>../..PicJoin/ExternalLib/B64Transcoder/</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
@@ -30,11 +30,11 @@
 		<string>https://scs01.wisekey.ch:8443/svn/wisefans-ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>bitbucket.org:ndohai/comicstrip.git</string>
+	<string>https://github.com/trduong/ComicStrip.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1A05B10E39C38EC325A335A534BF258650965047</string>
+	<string>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -49,9 +49,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1A05B10E39C38EC325A335A534BF258650965047</string>
+			<string>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>PicJoin</string>
+			<string>ComicStrip</string>
 		</dict>
 	</array>
 </dict>

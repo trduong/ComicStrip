@@ -34,6 +34,20 @@
                ReferencedContainer = "container:PicJoin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C43EA5A61B9633B400155072"
+               BuildableName = "AcceptanceTest.xctest"
+               BlueprintName = "AcceptanceTest"
+               ReferencedContainer = "container:PicJoin.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -49,6 +63,16 @@
                BlueprintIdentifier = "D096DABA19C2ABFF0007CB8C"
                BuildableName = "PicJoinTests.xctest"
                BlueprintName = "PicJoinTests"
+               ReferencedContainer = "container:PicJoin.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C43EA5A61B9633B400155072"
+               BuildableName = "AcceptanceTest.xctest"
+               BlueprintName = "AcceptanceTest"
                ReferencedContainer = "container:PicJoin.xcodeproj">
             </BuildableReference>
          </TestableReference>
