@@ -9,31 +9,14 @@
 #import <UIKit/UIKit.h>
 #import <KIF/KIF.h>
 
+#define tester KIFActorWithClass(KIFUITestActor)
+
 @interface MainViewControllerTest : KIFTestCase
 
 @end
 
 @implementation MainViewControllerTest
 
-
-- (void)beforeAll
-{
-}
-
-- (void)beforeEach
-{
-    
-}
-
-- (void)afterEach
-{
-    
-}
-
-- (void)afterAll
-{
-    
-}
 
 
 - (void)setUp {
@@ -46,4 +29,11 @@
     [super tearDown];
 }
 
+
+- (void)testSelectShare
+{
+    
+    [tester waitForTappableViewWithAccessibilityLabel:@"selectAndHideView"];
+    [tester tapViewWithAccessibilityLabel:@"selectAndHideView"];
+}
 @end

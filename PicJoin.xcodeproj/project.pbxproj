@@ -211,9 +211,6 @@
 		D096DAAD19C2ABFE0007CB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D096DAB519C2ABFE0007CB8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D096DABC19C2ABFF0007CB8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D096DAC419C2ABFF0007CB8C /* PicJoinTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicJoinTests-Info.plist"; sourceTree = "<group>"; };
-		D096DAC619C2ABFF0007CB8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D096DAC819C2ABFF0007CB8C /* PicJoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicJoinTests.m; sourceTree = "<group>"; };
 		D0AECAA71A4D1204007EB39B /* BalloonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalloonView.h; sourceTree = "<group>"; };
 		D0AECAA81A4D1204007EB39B /* BalloonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalloonView.m; sourceTree = "<group>"; };
 		D0AECAAC1A4D5C22007EB39B /* BalloonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalloonView.xib; sourceTree = "<group>"; };
@@ -489,7 +486,6 @@
 			isa = PBXGroup;
 			children = (
 				D096DAA019C2ABFE0007CB8C /* PicJoin */,
-				D096DAC219C2ABFF0007CB8C /* PicJoinTests */,
 				C43EA5A81B9633B400155072 /* AcceptanceTest */,
 				D096DA9919C2ABFE0007CB8C /* Frameworks */,
 				D096DA9819C2ABFE0007CB8C /* Products */,
@@ -552,24 +548,6 @@
 				D096DAA319C2ABFE0007CB8C /* InfoPlist.strings */,
 				D096DAA619C2ABFE0007CB8C /* main.m */,
 				D096DAA819C2ABFE0007CB8C /* PicJoin-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D096DAC219C2ABFF0007CB8C /* PicJoinTests */ = {
-			isa = PBXGroup;
-			children = (
-				D096DAC819C2ABFF0007CB8C /* PicJoinTests.m */,
-				D096DAC319C2ABFF0007CB8C /* Supporting Files */,
-			);
-			path = PicJoinTests;
-			sourceTree = "<group>";
-		};
-		D096DAC319C2ABFF0007CB8C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D096DAC419C2ABFF0007CB8C /* PicJoinTests-Info.plist */,
-				D096DAC519C2ABFF0007CB8C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -930,14 +908,6 @@
 				D096DAAD19C2ABFE0007CB8C /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		D096DAC519C2ABFF0007CB8C /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D096DAC619C2ABFF0007CB8C /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

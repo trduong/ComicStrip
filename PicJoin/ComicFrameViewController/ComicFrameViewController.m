@@ -66,6 +66,9 @@
     _selectTypeAndBubbleView.delegate = self;
     
     [self setup];
+    [_selectTypeAndBubbleView setAccessibilityLabel:@"selectAndHideView"];
+
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
