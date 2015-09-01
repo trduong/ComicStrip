@@ -100,7 +100,6 @@
 		C43EA5A71B9633B400155072 /* AcceptanceTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptanceTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43EA5AA1B9633B400155072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C43EA5AB1B9633B400155072 /* AcceptanceTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTest.m; sourceTree = "<group>"; };
-		C4F2E0821B96350800DDF5DB /* MainViewControllerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewControllerTest.h; sourceTree = "<group>"; };
 		C4F2E0831B96350800DDF5DB /* MainViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTest.m; sourceTree = "<group>"; };
 		CCACBACAC01950D2D5CBAAB2 /* Pods-AcceptanceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTest/Pods-AcceptanceTest.release.xcconfig"; sourceTree = "<group>"; };
 		CE11C2BD1B385B7500882439 /* AllBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBubble.h; sourceTree = "<group>"; };
@@ -286,7 +285,6 @@
 			children = (
 				C43EA5AB1B9633B400155072 /* AcceptanceTest.m */,
 				C43EA5A91B9633B400155072 /* Supporting Files */,
-				C4F2E0821B96350800DDF5DB /* MainViewControllerTest.h */,
 				C4F2E0831B96350800DDF5DB /* MainViewControllerTest.m */,
 			);
 			path = AcceptanceTest;
