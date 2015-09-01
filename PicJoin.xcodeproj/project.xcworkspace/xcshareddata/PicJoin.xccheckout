@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E663431-F054-4996-92DF-F474533A94C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PicJoin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A05B10E39C38EC325A335A534BF258650965047</key>
+		<string>bitbucket.org:ndohai/comicstrip.git</string>
+		<key>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</key>
+		<string>https://scs01.wisekey.ch:8443/svn/wisefans-ios/SwissFederationFootball/trunk/src/SwissFederationFootball/WiseFan/Classes/Libs/B64Transcoder</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PicJoin.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A05B10E39C38EC325A335A534BF258650965047</key>
+		<string>../..</string>
+		<key>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</key>
+		<string>../../PicJoin/ExternalLib/B64Transcoder/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</key>
+		<string>https://scs01.wisekey.ch:8443/svn/wisefans-ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:ndohai/comicstrip.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A05B10E39C38EC325A335A534BF258650965047</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>a9cf83f5-7b75-0141-938e-45452d8e03bc++8289</string>
+			<key>IDESourceControlWCCName</key>
+			<string>B64Transcoder</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A05B10E39C38EC325A335A534BF258650965047</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PicJoin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
