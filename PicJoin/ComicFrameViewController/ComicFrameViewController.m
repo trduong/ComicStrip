@@ -233,6 +233,7 @@
 
 - (void)didSelectShowOrHideView:(BOOL)isShow
 {
+    [self.view bringSubviewToFront:_selectTypeAndBubbleView];
     CGRect rect = _selectTypeAndBubbleView.frame;
     if (isShow) {
         rect.origin.y = self.view.frame.size.height - rect.size.height;
@@ -950,7 +951,7 @@
             if (drawBu.center.y >= (CGRectGetHeight(self.view.frame) - self.heightOfKeyboard - 50))
             {
                 [UIView animateWithDuration:0.3 animations:^{
-                    drawBu.center = CGPointMake(CGRectGetWidth(self.view.frame)/2, CGRectGetHeight(self.view.frame)/2);
+                    drawBu.center = CGPointMake(CGRectGetWidth(self.view.frame)/2, CGRectGetHeight(self.view.frame)/2-70);
                     [self.panView setCenter:[drawBu returnCenterLocationView]];
                     [self.editView setCenter:CGPointMake(drawBu.center.x, drawBu.center.y - drawBu.bounds.size.height/2 - self.editView.bounds.size.height/2)];
                 } completion:^(BOOL finished) {
@@ -972,6 +973,7 @@
             break;
         }
     }
+    [self.view endEditing:YES];
     [self hideEditBubble];
 }
 
