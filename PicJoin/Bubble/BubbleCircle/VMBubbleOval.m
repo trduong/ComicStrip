@@ -441,7 +441,7 @@
 {
     [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
     [self.textView layoutIfNeeded];
-    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
+    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2-50)];
     return YES;
 }
 

@@ -234,6 +234,10 @@
 - (void)didSelectShowOrHideView:(BOOL)isShow
 {
     [self.view bringSubviewToFront:_selectTypeAndBubbleView];
+    [self hideColorPicker];
+    [self.view endEditing:YES];
+    [self hideEditBubble];
+    
     CGRect rect = _selectTypeAndBubbleView.frame;
     if (isShow) {
         rect.origin.y = self.view.frame.size.height - rect.size.height;
