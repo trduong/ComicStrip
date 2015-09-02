@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2E663431-F054-4996-92DF-F474533A94C1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>PicJoin</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</key>
@@ -16,7 +16,7 @@
 		<string>https://scs01.wisekey.ch:8443/svn/wisefans-ios/SwissFederationFootball/trunk/src/SwissFederationFootball/WiseFan/Classes/Libs/B64Transcoder</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PicJoin.xcodeproj/project.xcworkspace</string>
+	<string>PicJoin.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA</key>

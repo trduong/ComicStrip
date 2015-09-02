@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		71F42C65DBB06C0C5C82BF30 /* libPods-AcceptanceTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB67BACD21D575B56A8B741 /* libPods-AcceptanceTest.a */; };
-		C43EA5AC1B9633B400155072 /* AcceptanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C43EA5AB1B9633B400155072 /* AcceptanceTest.m */; };
-		C4F2E0841B96350800DDF5DB /* MainViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F2E0831B96350800DDF5DB /* MainViewControllerTest.m */; };
 		CE11C2CB1B385B7500882439 /* AllBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11C2BE1B385B7500882439 /* AllBubble.m */; };
 		CE11C2CC1B385B7500882439 /* BubbleOval.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11C2C11B385B7500882439 /* BubbleOval.m */; };
 		CE11C2CD1B385B7500882439 /* VMArrowBorderOval.m in Sources */ = {isa = PBXBuildFile; fileRef = CE11C2C31B385B7500882439 /* VMArrowBorderOval.m */; };
@@ -84,20 +81,9 @@
 		D0EC708C1A4034F8006C84D4 /* ComicItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EC708B1A4034F8006C84D4 /* ComicItemView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C43EA5AD1B9633B400155072 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D096DA8F19C2ABFE0007CB8C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D096DA9619C2ABFE0007CB8C;
-			remoteInfo = PicJoin;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		760FC516C8ABD88C93249309 /* Pods-AcceptanceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceptanceTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcceptanceTest/Pods-AcceptanceTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9DB67BACD21D575B56A8B741 /* libPods-AcceptanceTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcceptanceTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C43EA5A71B9633B400155072 /* AcceptanceTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcceptanceTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43EA5AA1B9633B400155072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C43EA5AB1B9633B400155072 /* AcceptanceTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcceptanceTest.m; sourceTree = "<group>"; };
 		C4F2E0831B96350800DDF5DB /* MainViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerTest.m; sourceTree = "<group>"; };
@@ -244,14 +230,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C43EA5A41B9633B400155072 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71F42C65DBB06C0C5C82BF30 /* libPods-AcceptanceTest.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D096DA9419C2ABFE0007CB8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,7 +475,6 @@
 			isa = PBXGroup;
 			children = (
 				D096DA9719C2ABFE0007CB8C /* ComicStrip.app */,
-				C43EA5A71B9633B400155072 /* AcceptanceTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -623,27 +600,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C43EA5A61B9633B400155072 /* AcceptanceTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C43EA5B11B9633B500155072 /* Build configuration list for PBXNativeTarget "AcceptanceTest" */;
-			buildPhases = (
-				415C0E9E1D501FE287037FD9 /* Check Pods Manifest.lock */,
-				C43EA5A31B9633B400155072 /* Sources */,
-				C43EA5A41B9633B400155072 /* Frameworks */,
-				C43EA5A51B9633B400155072 /* Resources */,
-				22E2099A6483937B46AF1403 /* Embed Pods Frameworks */,
-				4D9A2A5B44189EDAADF70E59 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C43EA5AE1B9633B400155072 /* PBXTargetDependency */,
-			);
-			name = AcceptanceTest;
-			productName = AcceptanceTest;
-			productReference = C43EA5A71B9633B400155072 /* AcceptanceTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		D096DA9619C2ABFE0007CB8C /* PicJoin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D096DACC19C2ABFF0007CB8C /* Build configuration list for PBXNativeTarget "PicJoin" */;
@@ -670,9 +626,8 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Atmarkcafe;
 				TargetAttributes = {
-					C43EA5A61B9633B400155072 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = D096DA9619C2ABFE0007CB8C;
+					D096DA9619C2ABFE0007CB8C = {
+						DevelopmentTeam = B399DL2JNG;
 					};
 				};
 			};
@@ -698,19 +653,11 @@
 			projectRoot = "";
 			targets = (
 				D096DA9619C2ABFE0007CB8C /* PicJoin */,
-				C43EA5A61B9633B400155072 /* AcceptanceTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C43EA5A51B9633B400155072 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D096DA9519C2ABFE0007CB8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -735,64 +682,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		22E2099A6483937B46AF1403 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTest/Pods-AcceptanceTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		415C0E9E1D501FE287037FD9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		4D9A2A5B44189EDAADF70E59 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcceptanceTest/Pods-AcceptanceTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C43EA5A31B9633B400155072 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C43EA5AC1B9633B400155072 /* AcceptanceTest.m in Sources */,
-				C4F2E0841B96350800DDF5DB /* MainViewControllerTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D096DA9319C2ABFE0007CB8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,14 +743,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C43EA5AE1B9633B400155072 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D096DA9619C2ABFE0007CB8C /* PicJoin */;
-			targetProxy = C43EA5AD1B9633B400155072 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		CE41AECB1B4CC00400A5C370 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -913,55 +795,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C43EA5AF1B9633B400155072 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 760FC516C8ABD88C93249309 /* Pods-AcceptanceTest.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AcceptanceTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicStrip.app/ComicStrip";
-			};
-			name = Debug;
-		};
-		C43EA5B01B9633B400155072 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCACBACAC01950D2D5CBAAB2 /* Pods-AcceptanceTest.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = AcceptanceTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ComicStrip.app/ComicStrip";
-			};
-			name = Release;
-		};
 		D096DACA19C2ABFF0007CB8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1039,7 +872,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: AI&T JOINT STOCK COMPANY";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PicJoin/ExternalLib",
@@ -1049,7 +883,7 @@
 				INFOPLIST_FILE = "PicJoin/PicJoin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = ComicStrip;
-				PROVISIONING_PROFILE = "e6ad5952-4be0-4082-8bee-327b07f47faf";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1060,7 +894,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: AI&T JOINT STOCK COMPANY";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PicJoin/ExternalLib",
@@ -1070,7 +905,7 @@
 				INFOPLIST_FILE = "PicJoin/PicJoin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = ComicStrip;
-				PROVISIONING_PROFILE = "e6ad5952-4be0-4082-8bee-327b07f47faf";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1079,15 +914,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C43EA5B11B9633B500155072 /* Build configuration list for PBXNativeTarget "AcceptanceTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C43EA5AF1B9633B400155072 /* Debug */,
-				C43EA5B01B9633B400155072 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D096DA9219C2ABFE0007CB8C /* Build configuration list for PBXProject "PicJoin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

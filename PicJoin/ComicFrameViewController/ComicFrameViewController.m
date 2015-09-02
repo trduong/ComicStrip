@@ -162,7 +162,9 @@
         _comicItemViewSelected = nil;
     }
     _comicItemViewSelected = comicItemView;
-    
+    [self.view endEditing:YES];
+    [self hideEditBubble];
+    [self hideColorPicker];
     UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Pick from library", @"Take photo", nil];
     [actionSheet showInView:self.view];
 }
@@ -217,6 +219,7 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingImage:(UIImage *)img editingInfo:(NSDictionary *)editInfo
 {
+
     [_comicItemViewSelected setComicImage:img];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -700,7 +703,7 @@
 
 - (void)initColorPicker
 {
-    self.colorPicker = [[VMColorPickerView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 100)];
+    self.colorPicker = [[VMColorPickerView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].applicationFrame.size.height-100, self.view.bounds.size.width, 100)];
     [self.colorPicker setDelegate:self];
     [self.colorPicker setAlpha:0];
     [self.view addSubview:self.colorPicker];
@@ -774,9 +777,10 @@
 
 - (void)clickMainView:(UITapGestureRecognizer*)tap
 {
-    [self.view endEditing:YES];
     [self hideEditBubble];
     [self hideColorPicker];
+    [self.view endEditing:YES];
+
 }
 
 - (void)makeBubbleWithType:(NSInteger)type
@@ -920,6 +924,7 @@
 
 - (void)VMEditViewClickButBackgroundColor:(VMEditView *)editView
 {
+    [self.view endEditing:YES];
     [self showColorPicker];
     self.typeOfChange = 2;
     [self.colorPicker setPikerName:@"Background Color"];
@@ -927,6 +932,7 @@
 
 - (void)VMEditViewClickButBoderColor:(VMEditView *)editView
 {
+    [self.view endEditing:YES];
     [self showColorPicker];
     self.typeOfChange = 3;
     [self.colorPicker setPikerName:@"Boder Color"];
@@ -971,6 +977,7 @@
 
 - (void)VMEditViewClickButTextColor:(VMEditView *)editView
 {
+    [self.view endEditing:YES];
     [self showColorPicker];
     self.typeOfChange = 1;
     [self.colorPicker setPikerName:@"Text Color"];
