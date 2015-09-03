@@ -229,7 +229,7 @@
     
     [self initTextbox];
     
-    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds)+5,CGRectGetHeight(self.viewTextView.bounds)+5)];
+    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
     [self.textView sizeToFit];
     [self.textView layoutIfNeeded];
     [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
@@ -430,7 +430,7 @@
 
 -(void)textViewDidEndEditing:(UITextView *)textView
 {
-    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
+    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds)+5,CGRectGetHeight(self.viewTextView.bounds)+5)];
     [self.textView sizeToFit];
     [self.textView layoutIfNeeded];
     [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
@@ -441,7 +441,7 @@
 {
     [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
     [self.textView layoutIfNeeded];
-    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2-50)];
+    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
     return YES;
 }
 
