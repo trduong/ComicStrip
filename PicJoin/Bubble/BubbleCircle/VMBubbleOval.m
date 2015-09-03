@@ -138,14 +138,14 @@
     if (!self.textView)
     {
         self.viewTextView = [[UIView alloc] init];
-        //        [self.viewTextView setBackgroundColor:[UIColor lightGrayColor]];
+        //[self.viewTextView setBackgroundColor:[UIColor blueColor]];
         [self.viewTextView setClipsToBounds:YES];
         self.textView =  [[UITextView alloc] init];
         [self.textView setDelegate:self];
         [self.textView setScrollEnabled:NO];
         [self.textView setBackgroundColor:[UIColor clearColor]];
         [self.textView setTextAlignment:NSTextAlignmentCenter];
-        [self.textView setFont:[UIFont boldSystemFontOfSize:17]];
+        [self.textView setFont:[UIFont boldSystemFontOfSize:15]];
         
         [self addSubview:self.viewTextView];
         [self.viewTextView addSubview:self.textView];
@@ -229,7 +229,7 @@
     
     [self initTextbox];
     
-    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
+    [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds)+5,CGRectGetHeight(self.viewTextView.bounds)+5)];
     [self.textView sizeToFit];
     [self.textView layoutIfNeeded];
     [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
@@ -441,7 +441,7 @@
 {
     [self.textView setFrame:CGRectMake(0,0, CGRectGetWidth(self.viewTextView.bounds),CGRectGetHeight(self.viewTextView.bounds))];
     [self.textView layoutIfNeeded];
-    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2)];
+    [self.textView setCenter:CGPointMake(CGRectGetWidth(self.viewTextView.bounds)/2,CGRectGetHeight(self.viewTextView.bounds)/2-50)];
     return YES;
 }
 
