@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a9cf83f5-7b75-0141-938e-45452d8e03bc++8289" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA" : 0,
+    "a9cf83f5-7b75-0141-938e-45452d8e03bc++8289" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2E663431-F054-4996-92DF-F474533A94C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA" : "ComicStrip",
+    "a9cf83f5-7b75-0141-938e-45452d8e03bc++8289" : "ComicStripPicJoin\/ExternalLib\/B64Transcoder"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PicJoin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PicJoin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/trduong\/ComicStrip.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1F4BDFA15C5805E43C72DFE8EBFA8F73C68EAFA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/scs01.wisekey.ch:8443\/svn\/wisefans-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a9cf83f5-7b75-0141-938e-45452d8e03bc++8289"
+    }
+  ]
+}

@@ -61,7 +61,6 @@
 		D096DAA719C2ABFE0007CB8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D096DAA619C2ABFE0007CB8C /* main.m */; };
 		D096DAAB19C2ABFE0007CB8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D096DAAA19C2ABFE0007CB8C /* AppDelegate.m */; };
 		D096DAAE19C2ABFE0007CB8C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D096DAAC19C2ABFE0007CB8C /* Main_iPhone.storyboard */; };
-		D096DAB619C2ABFE0007CB8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D096DAB519C2ABFE0007CB8C /* Images.xcassets */; };
 		D0AECAA91A4D1204007EB39B /* BalloonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AECAA81A4D1204007EB39B /* BalloonView.m */; };
 		D0AECAAD1A4D5C22007EB39B /* BalloonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AECAAC1A4D5C22007EB39B /* BalloonView.xib */; };
 		D0AECAB31A4D6A57007EB39B /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D0AECAAF1A4D6A57007EB39B /* pin.png */; };
@@ -79,6 +78,11 @@
 		D0E38E221A49BBB00083E46A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E38E211A49BBB00083E46A /* Utils.m */; };
 		D0EC70891A401B85006C84D4 /* ComicFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EC70881A401B85006C84D4 /* ComicFrameViewController.m */; };
 		D0EC708C1A4034F8006C84D4 /* ComicItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EC708B1A4034F8006C84D4 /* ComicItemView.m */; };
+		F20C9D5A1BCF5656003B005F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C9D551BCF5656003B005F /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F20C9D5B1BCF5656003B005F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C9D561BCF5656003B005F /* Default-667h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		F20C9D5C1BCF5656003B005F /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C9D571BCF5656003B005F /* Default-736h@3x.png */; settings = {ASSET_TAGS = (); }; };
+		F20C9D5D1BCF5656003B005F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C9D581BCF5656003B005F /* Default.png */; settings = {ASSET_TAGS = (); }; };
+		F20C9D5E1BCF5656003B005F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F20C9D591BCF5656003B005F /* Default@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,7 +199,6 @@
 		D096DAA919C2ABFE0007CB8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D096DAAA19C2ABFE0007CB8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D096DAAD19C2ABFE0007CB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		D096DAB519C2ABFE0007CB8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D096DABC19C2ABFF0007CB8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D0AECAA71A4D1204007EB39B /* BalloonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalloonView.h; sourceTree = "<group>"; };
 		D0AECAA81A4D1204007EB39B /* BalloonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalloonView.m; sourceTree = "<group>"; };
@@ -227,6 +230,11 @@
 		D0EC70881A401B85006C84D4 /* ComicFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicFrameViewController.m; sourceTree = "<group>"; };
 		D0EC708A1A4034F8006C84D4 /* ComicItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComicItemView.h; sourceTree = "<group>"; };
 		D0EC708B1A4034F8006C84D4 /* ComicItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComicItemView.m; sourceTree = "<group>"; };
+		F20C9D551BCF5656003B005F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F20C9D561BCF5656003B005F /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		F20C9D571BCF5656003B005F /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		F20C9D581BCF5656003B005F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F20C9D591BCF5656003B005F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,7 +520,6 @@
 				CEA187791B4B777600374E6F /* Main_iPhone_3.5.storyboard */,
 				D096DAAC19C2ABFE0007CB8C /* Main_iPhone.storyboard */,
 				CE41AECB1B4CC00400A5C370 /* Main_iPad.storyboard */,
-				D096DAB519C2ABFE0007CB8C /* Images.xcassets */,
 				D096DAA119C2ABFE0007CB8C /* Supporting Files */,
 			);
 			path = PicJoin;
@@ -521,6 +528,11 @@
 		D096DAA119C2ABFE0007CB8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F20C9D551BCF5656003B005F /* Default-568h@2x.png */,
+				F20C9D561BCF5656003B005F /* Default-667h@2x.png */,
+				F20C9D571BCF5656003B005F /* Default-736h@3x.png */,
+				F20C9D581BCF5656003B005F /* Default.png */,
+				F20C9D591BCF5656003B005F /* Default@2x.png */,
 				D096DAA219C2ABFE0007CB8C /* PicJoin-Info.plist */,
 				D096DAA319C2ABFE0007CB8C /* InfoPlist.strings */,
 				D096DAA619C2ABFE0007CB8C /* main.m */,
@@ -623,7 +635,7 @@
 		D096DA8F19C2ABFE0007CB8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Atmarkcafe;
 				TargetAttributes = {
 					D096DA9619C2ABFE0007CB8C = {
@@ -667,14 +679,18 @@
 				D08418031A98B3F10009726D /* Frame_Ip5.plist in Resources */,
 				D0AECAAD1A4D5C22007EB39B /* BalloonView.xib in Resources */,
 				CEA1877B1B4B777600374E6F /* Main_iPhone_3.5.storyboard in Resources */,
+				F20C9D5C1BCF5656003B005F /* Default-736h@3x.png in Resources */,
 				CE41AECD1B4CC00400A5C370 /* Main_iPad.storyboard in Resources */,
 				CEE04A711B3B178600D862E1 /* SVWebViewController.strings in Resources */,
-				D096DAB619C2ABFE0007CB8C /* Images.xcassets in Resources */,
 				D053D7391A471AC900D40D64 /* Frame_Ip4.plist in Resources */,
 				CEE04A8E1B3B242A00D862E1 /* SVProgressHUD.bundle in Resources */,
+				F20C9D5D1BCF5656003B005F /* Default.png in Resources */,
+				F20C9D5E1BCF5656003B005F /* Default@2x.png in Resources */,
 				CEE04A731B3B178600D862E1 /* SVWebViewController.bundle in Resources */,
 				D0AECAB31A4D6A57007EB39B /* pin.png in Resources */,
+				F20C9D5B1BCF5656003B005F /* Default-667h@2x.png in Resources */,
 				D096DAAE19C2ABFE0007CB8C /* Main_iPhone.storyboard in Resources */,
+				F20C9D5A1BCF5656003B005F /* Default-568h@2x.png in Resources */,
 				D096DAA519C2ABFE0007CB8C /* InfoPlist.strings in Resources */,
 				CE41AECF1B4CCEDD00A5C370 /* Frame_iPad.plist in Resources */,
 			);
@@ -813,6 +829,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -871,7 +888,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -882,6 +898,7 @@
 				GCC_PREFIX_HEADER = "PicJoin/PicJoin-Prefix.pch";
 				INFOPLIST_FILE = "PicJoin/PicJoin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.han.comicstrip;
 				PRODUCT_NAME = ComicStrip;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -893,7 +910,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -904,6 +920,7 @@
 				GCC_PREFIX_HEADER = "PicJoin/PicJoin-Prefix.pch";
 				INFOPLIST_FILE = "PicJoin/PicJoin-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.han.comicstrip;
 				PRODUCT_NAME = ComicStrip;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
